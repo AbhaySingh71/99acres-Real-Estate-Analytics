@@ -7,6 +7,13 @@ The **Gurugram Real Estate Analytics Project** is a **comprehensive data-driven 
 - **Analytics & Visualization**: Interactive dashboards showcasing market trends, insights, and price distributions.  
 - **Recommendation**: Suggesting the best properties based on user preferences and data-driven insights.  
 
+### 📸 Project Screenshots  
+Below is a **2x3 grid** displaying key visuals from the project:  
+
+| ![Screenshot 1](path_to_image) | ![Screenshot 2](path_to_image2) | ![Screenshot 3](path_to_image3) |  
+|---------------------------------|---------------------------------|---------------------------------|  
+| ![Screenshot 4](path_to_image4) | ![Screenshot 5](path_to_image5) | ![Screenshot 6](path_to_image6) |  
+
 ---  
 
 ## 🚀 Key Features  
@@ -76,10 +83,10 @@ These visualizations enhance the interpretability of the real estate market and 
 ## 📌 How to Run the Project  
 ```bash  
 # Clone the repository  
-git clone https://github.com/AbhaySingh71/99acres-Real-Estate-Analytics.git 
+git clone https://github.com/your-repo/gurugram-real-estate.git  
 
 # Navigate to the project directory  
-cd 99acres-Real-Estate-Analytics  
+cd gurugram-real-estate  
 
 # Install dependencies  
 pip install -r requirements.txt  
