@@ -71,22 +71,13 @@ These visualizations enhance the interpretability of the real estate market and 
 
 ---  
 
-## 💡 Future Enhancements  
-🔹 Expand dataset with more real-time listings and geospatial data.  
-🔹 Integrate Deep Learning models for better prediction accuracy.  
-🔹 Develop a mobile-friendly version of the dashboard.  
-🔹 Include additional filters for more refined property recommendations.  
-🔹 Enhance cloud deployment with **AWS Lambda, S3, and DynamoDB** for scalability.  
-
----  
-
 ## 📌 How to Run the Project  
 ```bash  
 # Clone the repository  
-git clone https://github.com/your-repo/gurugram-real-estate.git  
+git clone https://github.com/AbhaySingh71/99acres-Real-Estate-Analytics.git
 
 # Navigate to the project directory  
-cd gurugram-real-estate  
+cd /99acres-Real-Estate-Analytics  
 
 # Install dependencies  
 pip install -r requirements.txt  
@@ -102,8 +93,7 @@ The project is deployed on **AWS Cloud Services** to ensure high availability an
 
 🔹 **EC2**: Hosting the Streamlit application.  
 🔹 **S3**: Storing dataset files and model artifacts.  
-🔹 **Lambda**: Handling backend processing tasks.  
-🔹 **DynamoDB**: Managing user interactions and recommendations.  
+🔹 **Lambda**: Handling backend processing tasks. 
 
 ---  
 
@@ -112,10 +102,9 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 
 ---  
 
-## 📬 Contact  
-💼 **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/your-profile)  
-📂 **GitHub**: [Your GitHub](https://github.com/your-profile)  
-✍ **Medium Blog**: [Your Blog](https://medium.com/@your-profile)  
+[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/abhay-singh-050a5b293/)
+
+[![smile please](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://x.com/@abhaysingh71711)  
 
 ---  
 
