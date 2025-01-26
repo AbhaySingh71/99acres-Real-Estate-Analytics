@@ -76,10 +76,10 @@ These visualizations enhance the interpretability of the real estate market and 
 ## 📌 How to Run the Project  
 ```bash  
 # Clone the repository  
-git clone https://github.com/your-repo/gurugram-real-estate.git  
+git clone https://github.com/AbhaySingh71/99acres-Real-Estate-Analytics.git 
 
 # Navigate to the project directory  
-cd gurugram-real-estate  
+cd 99acres-Real-Estate-Analytics  
 
 # Install dependencies  
 pip install -r requirements.txt  
