@@ -1,91 +1,104 @@
 # Gurugram Real Estate Analytics 🏡📊  
 
 ## 📌 Project Overview  
-The **Gurugram Real Estate Analytics Project** is a **comprehensive data-driven solution** designed to analyze, predict, and recommend real estate properties in Gurugram. This project leverages advanced **machine learning, data visualization, and optimization techniques** to provide actionable insights into property prices and trends. It comprises three core modules:  
+The **Gurugram Real Estate Analytics Project** is a **comprehensive data-driven solution** designed to analyze, predict, and recommend real estate properties in Gurugram. This project leverages advanced **machine learning, data visualization, and optimization techniques** to provide actionable insights into property prices and trends.  
 
+### 🔹 Core Modules:  
 - **Prediction**: Forecasting property prices using historical data and machine learning models.  
 - **Analytics & Visualization**: Interactive dashboards showcasing market trends, insights, and price distributions.  
 - **Recommendation**: Suggesting the best properties based on user preferences and data-driven insights.  
 
-### 📸 Project Demo: 
+---
+
+## 📸 Project Demo  
 
 | ![Screenshot 1](assets/photo1.png) | ![Screenshot 2](assets/photo2.png) |  
 |---------------------------------|---------------------------------|  
 | ![Screenshot 3](assets/photo3.png) | ![Screenshot 4](assets/photo4.png) |  
 | ![Screenshot 5](assets/photo5.png) | ![Screenshot 6](assets/photo6.png) |  
 
----  
+---
 
 ## 🚀 Key Features  
 ✅ **Web Scraping**: Automated extraction of real estate data from multiple sources.  
 ✅ **Data Cleaning & Preprocessing**: Handling missing values, outliers, and ensuring data quality.  
-✅ **Missing Value & Outlier Treatment**: Detecting and treating missing data and anomalies to improve model robustness.  
-✅ **Exploratory Data Analysis (EDA)**: Understanding patterns, trends, and distributions using visualization techniques.  
+✅ **EDA (Exploratory Data Analysis)**: Understanding patterns, trends, and distributions using visualization techniques.  
 ✅ **Feature Engineering**: Creating new features to enhance model performance.  
-✅ **Feature Selection**: Selecting the most relevant attributes to improve efficiency.  
-✅ **Model Selection & Training**: Comparing multiple machine learning models to find the best fit.  
-✅ **Bayesian Optimization (Optuna)**: Hyperparameter tuning for optimal model performance.  
-✅ **Deployment with Streamlit & AWS**: Making insights accessible through an interactive web application deployed on AWS for better performance.  
+✅ **TF-IDF & Cosine Similarity**: Used for property similarity recommendations.  
+✅ **Column Transformer & Scaling**: StandardScaler & OneHotEncoding for feature transformation.  
+✅ **Pandas Profiling & Ordinal Encoding**: Automating data analysis and preprocessing.  
+✅ **K-Fold Cross-Validation**: Enhancing model evaluation and validation.  
+✅ **Feature Selection**:- **GradientBoostingRegressor**  - **Permutation Importance**  - **Lasso Regression**  - **SHAP (SHapley Additive Explanations)**  
+✅ **Dimensionality Reduction**: Implementing **PCA (Principal Component Analysis)**.  
+✅ **Model Selection & Training**: Comparing ML models to find the best fit.  
+✅ **Bayesian Optimization (Optuna)**: Hyperparameter tuning for optimal performance.  
+✅ **Deployment with Streamlit & AWS**: Interactive web app deployed on AWS.  
 
----  
+---
 
 ## 📊 Data Pipeline  
+
 1️⃣ **Data Collection**: Scraping property listings, historical prices, and location details.  
 2️⃣ **Data Cleaning & Processing**: Handling missing values, encoding categorical data, and standardizing numerical features.  
-3️⃣ **Exploratory Data Analysis (EDA)**: Visualizing property price trends, feature correlations, and market insights.  
-4️⃣ **Feature Engineering & Selection**: Creating new meaningful features and selecting the most impactful ones.  
-5️⃣ **Model Training & Evaluation**: Experimenting with regression models, including **Linear Regression, Random Forest, XGBoost, and LightGBM**.  
-6️⃣ **Hyperparameter Tuning with Optuna**: Implementing Bayesian Optimization to maximize predictive accuracy.  
-7️⃣ **Deployment**: Building an interactive Streamlit web application and deploying it on **AWS Cloud Services** for scalability and better user experience.  
+3️⃣ **Exploratory Data Analysis (EDA)**: Visualizing price trends, feature correlations, and market insights.  
+4️⃣ **Feature Engineering & Selection**: Creating new features and selecting the most impactful ones.  
+5️⃣ **Model Training & Evaluation**: Experimenting with regression models:  
+ - **Linear Regression, Random Forest, XGBoost, LightGBM**  
+ - **Support Vector Regression (SVR), Logistic Regression**  
+6️⃣ **Hyperparameter Tuning**: Bayesian Optimization with **Optuna**.  
+7️⃣ **Feature Selection**: Using **GradientBoostingRegressor, Permutation Importance, Lasso, SHAP**.  
+8️⃣ **Dimensionality Reduction**: **PCA** applied for performance improvement.  
+9️⃣ **Deployment**: Interactive **Streamlit web application** deployed on **AWS Cloud Services**.  
 
----  
+---
 
 ## 🏗 Tech Stack  
-🔹 **Python** (Pandas, NumPy, Scikit-learn, BeautifulSoup, Selenium)  
-🔹 **Machine Learning** (XGBoost, LightGBM, Random Forest, Linear Regression, Multilayer Perceptron, SVR, Logistic Regression)  
-🔹 **Hyperparameter Tuning** (Optuna for Bayesian Optimization)  
-🔹 **Visualization** (Matplotlib, Seaborn, Plotly)  
-🔹 **Web Framework** (Streamlit for deployment)  
-🔹 **Data Storage** (CSV, SQLite for structured storage)  
-🔹 **Cloud Services** (AWS for deployment and hosting)  
+🔹 **Python**: Pandas, NumPy, Scikit-learn, BeautifulSoup, Selenium  
+🔹 **Machine Learning**: XGBoost, LightGBM, Random Forest, Linear Regression, Multilayer Perceptron, SVR  
+🔹 **Feature Engineering**: TF-IDF, Cosine Similarity, Ordinal Encoding, PCA  
+🔹 **Hyperparameter Tuning**: Optuna (Bayesian Optimization)  
+🔹 **Visualization**: Matplotlib, Seaborn, Plotly  
+🔹 **Web Framework**: Streamlit (for deployment)  
+🔹 **Data Storage**: CSV, SQLite  
+🔹 **Cloud Services**: AWS (EC2, S3, Lambda)  
 
----  
+---
 
 ## 📊 Analytics & Visualization  
-Visualization plays a crucial role in understanding real estate market trends and property pricing dynamics. The project integrates various advanced visual analytics techniques, including:  
 
-🔹 **Geospatial Analysis (Geo Maps)**: Interactive maps displaying property locations, pricing heatmaps, and area-wise demand trends. Web scraping was employed to gather latitude and longitude data for accurate geolocation mapping.  
-🔹 **Animated Time-Series Analysis**: Visualization of price changes over time using animations, helping users understand market fluctuations.  
-🔹 **Multi-Map Comparisons**: Side-by-side visual comparisons of different property zones based on factors such as pricing, amenities, and availability.  
+🔹 **Geospatial Analysis (Geo Maps)**: Property locations, pricing heatmaps, area-wise trends.  
+🔹 **Time-Series Analysis**: Animations for price changes over time.  
+🔹 **Multi-Map Comparisons**: Side-by-side comparisons of different property zones.  
 🔹 **Correlation Heatmaps**: Identifying relationships between key features and property prices.  
-🔹 **3D Visualizations**: Bringing property distribution to life using interactive 3D graphs.  
+🔹 **3D Visualizations**: Interactive 3D graphs for property distribution.  
 
-These visualizations enhance the interpretability of the real estate market and aid in making data-driven investment decisions.  
+These visualizations enhance real estate market understanding and data-driven investment decisions.  
 
----  
+---
 
 ## 📈 Results & Insights  
-- **Accurate Price Prediction**: Achieved a high R² score with optimized ML models.  
-- **Market Trends Analysis**: Identified key factors influencing property prices in Gurugram.  
-- **Optimized Recommendations**: Provided personalized property suggestions using similarity measures.  
 
----  
+✅ **High Accuracy**: Achieved a strong **R² score** with optimized ML models.  
+✅ **Market Trends**: Identified key factors influencing property prices in Gurugram.  
+✅ **Optimized Recommendations**: Personalized property suggestions using **Cosine Similarity**.  
+
+---
 
 ## 📌 How to Run the Project  
-```bash  
+```bash
 # Clone the repository  
-git clone https://github.com/AbhaySingh71/99acres-Real-Estate-Analytics.git
+git clone https://github.com/AbhaySingh71/99acres-Real-Estate-Analytics.git  
 
 # Navigate to the project directory  
-cd /99acres-Real-Estate-Analytics  
+cd 99acres-Real-Estate-Analytics  
 
 # Install dependencies  
 pip install -r requirements.txt  
 
 # Run the Streamlit app  
 streamlit run app.py  
-```  
 
+```
 ---  
 
 ## 🌐 Deployment on AWS  
