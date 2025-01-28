@@ -52,11 +52,11 @@ st.markdown("""
 with open('datasets/df.pkl', 'rb') as file:
     df = pickle.load(file)
 
-with open('datasets/pipeline.pkl', 'rb') as file:
-    pipeline = pickle.load(file)
+#with open('datasets/pipeline.pkl', 'rb') as file:
+#    pipeline = pickle.load(file)
 
-#with gzip.open('pipeline1.pkl.gz', 'rb') as file:
-#    pipeline = pickle.load(file)    
+with gzip.open('pipeline1.pkl.gz', 'rb') as file:
+    pipeline = pickle.load(file)    
 
 # Header
 st.header("🏠 **Real Estate Price Prediction**")
