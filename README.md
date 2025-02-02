@@ -1,4 +1,6 @@
 # Gurugram Real Estate Analytics 🏡📊  
+![DALL·E 2025-02-02 15 37 52 - A simple and professional wide banner image with a clean blue theme  The background is minimalistic with subtle gradients or a soft abstract pattern  ](https://github.com/user-attachments/assets/30fcb73c-ec3c-4cfb-a855-7b86f6f07b71)
+
 
 ## 📌 Project Overview  
 The **Gurugram Real Estate Analytics Project** is a **comprehensive data-driven solution** designed to analyze, predict, and recommend real estate properties in Gurugram. This project leverages advanced **machine learning, data visualization, and optimization techniques** to provide actionable insights into property prices and trends.  
